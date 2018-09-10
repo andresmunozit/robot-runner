@@ -71,6 +71,7 @@ The runnable folder includes four "instructions.txt" files you can use for testi
   - instrucions_test_1.txt
   - instrucions_test_2.txt
   - instrucions_test_3.txt
+This files are repeated several times into the project folder, this is for you to avoid receiving "file not found" error during the tests. Anyway if the program doesn't find the instructions file you will be asked to try again, until the system can find the file or you write "exit".
 
 ### JUnit testing with Eclipse
 You can download Eclipse IDE, import the project and run the tests. 
