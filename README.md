@@ -36,6 +36,7 @@ In all the cases you should see the following appear in the CLI:
 
 #### Basics
 The robot moves through a rectangle board of x,y dimentions where x and y are integers (something like a chess board with variable height and width). The user can input three values, the board size, the current position of the robot and the path of an instructions file which contains the movement instructions. The user can write "exit" in any moment to end the program.
+
 ![](run_test.png)
 #### User inputs
 ##### Board size and robot's current position
@@ -112,11 +113,11 @@ Test run finished after 109 ms
 ```
 ### What is being tested
 All non void methods are tested. Also it automatically tests four "instructions.txt" files that contains the following instructions sets:
-RI,RI,DO (in the file "instructions.txt")
-RI,DO,DO,DO,DO (instructions_test_1.txt)
-DO,RI,RI,DO,LE (instructions_test_2.txt)
+  - RI,RI,DO (in the file "instructions.txt")
+  - RI,DO,DO,DO,DO (instructions_test_1.txt)
+  - DO,RI,RI,DO,LE (instructions_test_2.txt)
 And a bonus long length instructions set (instructions_test_3.txt):
-RI,LE,UP,LE,DO,LE,LE,DO,DO,LE,UP,UP,RI,UP,DO,DO,DO,LE,LE,UP,UP,DO,RI,DO,UP,DO,RI,DO,DO,UP,UP,RI,DO,RI,DO,DO,RI,RI,LE,LE,DO,DO,UP,DO,DO,DO,UP,LE,UP,RI,RI,UP,RI,RI,RI,DO,UP,UP,RI,RI,LE,RI,DO,RI,RI,RI,UP,DO,RI,UP,LE,DO,LE,RI,RI,RI,LE,DO,DO,UP,DO,RI,LE,LE,RI,DO,UP,LE,DO,RI,UP,LE,LE,DO,RI,LE,UP,LE,RI,DO,RI,RI,RI,RI,DO,DO,UP,LE,LE,UP,DO,LE,UP,UP,LE,LE,RI,LE,RI,RI,RI,UP,UP,DO,UP,DO,DO,UP,UP,RI,UP,RI,RI,LE,UP,RI,UP,DO,RI,RI,LE,LE,LE
+  - RI,LE,UP,LE,DO,LE,LE,DO,DO,LE,UP,UP,RI,UP,DO,DO,DO,LE,LE,UP,UP,DO,RI,DO,UP,DO,RI,DO,DO,UP,UP,RI,DO,RI,DO,DO,RI,RI,LE,LE,DO,DO,UP,DO,DO,DO,UP,LE,UP,RI,RI,UP,RI,RI,RI,DO,UP,UP,RI,RI,LE,RI,DO,RI,RI,RI,UP,DO,RI,UP,LE,DO,LE,RI,RI,RI,LE,DO,DO,UP,DO,RI,LE,LE,RI,DO,UP,LE,DO,RI,UP,LE,LE,DO,RI,LE,UP,LE,RI,DO,RI,RI,RI,RI,DO,DO,UP,LE,LE,UP,DO,LE,UP,UP,LE,LE,RI,LE,RI,RI,RI,UP,UP,DO,UP,DO,DO,UP,UP,RI,UP,RI,RI,LE,UP,RI,UP,DO,RI,RI,LE,LE,LE
 ## Deployment
 
 For a basic deployment of the program on a live system, please refer to the installing part.
